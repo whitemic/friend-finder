@@ -12,8 +12,8 @@ module.exports = function(app) {
             photo: ""
         };
         var bestScore = 100;
-        var totalScore = 0;
         for (var i = 0; i < friendData.length; i++) {
+            var totalScore = 0;
             // console.log(friendData[i].scores);
             for (var j = 0; j < friendData[i].scores.length; j++) {
                 var scoreInt = parseInt(friendData[i].scores[j]);

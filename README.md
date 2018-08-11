@@ -1,1 +1,3 @@
 # friend-finder
+
+This application uses express and node to provide the user with an interface for finding friends. The survey the user takes compares the user's answers to the quesitons with the answers of previous users and finds the most compatible match by finding the person with the lowest difference score. The best match is then displayed in a modal that pops up on the screen. The user of this application also has access to the api data list of all of the users using the path /api/friends.
